@@ -8,6 +8,7 @@ namespace FendahlTraining
 {
     internal class Program
     {
+
         static void Main(string[] args)
         {
             //PartialClass partial = new PartialClass();
