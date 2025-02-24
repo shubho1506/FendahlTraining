@@ -10,15 +10,15 @@ namespace LambdaExpressions
     {
         static void Main(string[] args)
         {
-            // ✅ 1️⃣ Lambda Function - Square of a number
+            //  1. Lambda Function - Square of a number
             Func<int, int> square = x => x * x;
             Console.WriteLine($"Square of 5: {square(5)}");
 
-            // ✅ 2️⃣ Lambda Function - Add two numbers
+            //  2️. Lambda Function - Add two numbers
             Func<int, int, int> add = (a, b) => a + b;
             Console.WriteLine($"Addition of 3 and 7: {add(3, 7)}");
 
-            // ✅ 3️⃣ Lambda Function with Multiple Statements
+            //  3️. Lambda Function with Multiple Statements
             Func<int, int, int> multiply = (a, b) =>
             {
                 int result = a * b;

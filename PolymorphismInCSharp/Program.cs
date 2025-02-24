@@ -17,7 +17,39 @@ namespace PolymorphismInCSharp
             //AddCalculator();
             //AreaCalculator();
             //EmployeeObjectCreation();
-            BookObjectCreation();
+            //BookObjectCreation();
+            CoffeeMachine();
+        }
+        static void CoffeeMachine()
+        {
+            Coffee coffeeMachine = new Coffee();
+
+            while (true)
+            {
+                Console.WriteLine("Please select your coffee:");
+                Console.WriteLine("1. Filter");
+                Console.WriteLine("2. French Press Coffee/Aero Press ");
+                Console.Write("Enter choice (name or number): ");
+                string userInput = Console.ReadLine();
+
+                if (int.TryParse(userInput, out int choice))
+                {
+                    coffeeMachine.SelectCoffee(choice);
+                }
+                else
+                {
+                    coffeeMachine.SelectCoffee(userInput);
+                }
+
+                Console.Write("\nDo you wish to continue? (Y/N): ");
+                string response = Console.ReadLine().Trim().ToUpper();
+
+                if (response != "Y")
+                {
+                    Console.WriteLine("Thank you for using Coffee Machine !!!");
+                    break;
+                }
+            }
         }
 
         static void BookObjectCreation()

@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{363476FA-3903-473C-98A1-F500D4A17B22}</ProjectGuid>
+    <ProjectGuid>{22364A00-2AF3-4363-BE91-3CA2FB70D1F4}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>PolymorphismInCSharp</RootNamespace>
-    <AssemblyName>PolymorphismInCSharp</AssemblyName>
+    <RootNamespace>MethodOverloadingExamples</RootNamespace>
+    <AssemblyName>MethodOverloadingExamples</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,13 +43,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AddCalculator.cs" />
-    <Compile Include="AreaCalculator.cs" />
-    <Compile Include="Book.cs" />
-    <Compile Include="Coffee.cs" />
-    <Compile Include="Employee.cs" />
+    <Compile Include="BankLoan.cs" />
+    <Compile Include="CalculateInterest.cs" />
+    <Compile Include="ChatBot.cs" />
+    <Compile Include="Passenger.cs" />
+    <Compile Include="Person.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RideFareCalculator.cs" />
+    <Compile Include="TicketBooking.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

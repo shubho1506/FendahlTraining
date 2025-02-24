@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{363476FA-3903-473C-98A1-F500D4A17B22}</ProjectGuid>
+    <ProjectGuid>{2339B192-7DA4-453B-B998-AE196CDCBE41}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>PolymorphismInCSharp</RootNamespace>
-    <AssemblyName>PolymorphismInCSharp</AssemblyName>
+    <RootNamespace>CouplingInCSharp</RootNamespace>
+    <AssemblyName>CouplingInCSharp</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,11 +43,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AddCalculator.cs" />
-    <Compile Include="AreaCalculator.cs" />
-    <Compile Include="Book.cs" />
-    <Compile Include="Coffee.cs" />
-    <Compile Include="Employee.cs" />
+    <Compile Include="Game.cs" />
+    <Compile Include="GamingConsole.cs" />
+    <Compile Include="Mario.cs" />
+    <Compile Include="Pacman.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

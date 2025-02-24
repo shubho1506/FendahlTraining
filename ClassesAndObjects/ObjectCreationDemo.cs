@@ -11,40 +11,40 @@ namespace ClassesAndObjects
         public string Name;
         public int Age;
 
-        // ✅ 1️⃣ Parameterless Constructor (Required for Reflection)
+        //  1️. Parameterless Constructor (Required for Reflection)
         public ObjectCreationDemo()
         {
             Name = "Default";
             Age = 0;
         }
 
-        // ✅ 2️⃣ Parameterized Constructor
+        //  2️. Parameterized Constructor
         public ObjectCreationDemo(string name, int age)
         {
             Name = name;
             Age = age;
         }
 
-        // 2️⃣ Factory Method
+        // 2️. Factory Method
         public static ObjectCreationDemo CreateObject(string name, int age)
         {
             return new ObjectCreationDemo(name, age);
         }
 
-        // 3️⃣ Reflection-based object creation
+        // 3️. Reflection-based object creation
         public static ObjectCreationDemo CreateUsingReflection()
         {
             Type type = typeof(ObjectCreationDemo);
             return (ObjectCreationDemo)Activator.CreateInstance(type);
         }
 
-        // 5️⃣ Shallow Copy Method
+        // 5️. Shallow Copy Method
         public ObjectCreationDemo ShallowCopy()
         {
             return this; // Copies reference only, not data.
         }
 
-        // 6️⃣ Deep Copy Method
+        // 6️. Deep Copy Method
         public ObjectCreationDemo DeepCopy()
         {
             return new ObjectCreationDemo(this.Name, this.Age); // Creates a new object with the same values.
