@@ -41,6 +41,16 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E-CommerceProductPriceCalcu
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MethodOverloadingExamples", "MethodOverloadingExamples\MethodOverloadingExamples.csproj", "{22364A00-2AF3-4363-BE91-3CA2FB70D1F4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MethodOverridingExamples", "MethodOverridingExamples\MethodOverridingExamples.csproj", "{540FB63B-C7B2-4D3E-A3FC-0F8F05CDA424}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElectricityBillCalculator_Test", "ElectricityBillCalculator_Test\ElectricityBillCalculator_Test.csproj", "{73135B2B-2B26-4F69-8814-85F1417BF2BB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractClasses", "AbstractClasses\AbstractClasses.csproj", "{B72DD373-3654-4277-AC6B-27933F8A667E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterfaceInCsharp", "InterfaceInCsharp\InterfaceInCsharp.csproj", "{CEF8786A-C0A8-4B93-A00B-F8B80BF05A50}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExceptionHandelling", "ExceptionHandelling\ExceptionHandelling.csproj", "{D31D1AF6-16AE-4181-B895-A83FAA180DA5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -123,6 +133,26 @@ Global
 		{22364A00-2AF3-4363-BE91-3CA2FB70D1F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{22364A00-2AF3-4363-BE91-3CA2FB70D1F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{22364A00-2AF3-4363-BE91-3CA2FB70D1F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{540FB63B-C7B2-4D3E-A3FC-0F8F05CDA424}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{540FB63B-C7B2-4D3E-A3FC-0F8F05CDA424}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{540FB63B-C7B2-4D3E-A3FC-0F8F05CDA424}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{540FB63B-C7B2-4D3E-A3FC-0F8F05CDA424}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73135B2B-2B26-4F69-8814-85F1417BF2BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73135B2B-2B26-4F69-8814-85F1417BF2BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73135B2B-2B26-4F69-8814-85F1417BF2BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73135B2B-2B26-4F69-8814-85F1417BF2BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B72DD373-3654-4277-AC6B-27933F8A667E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B72DD373-3654-4277-AC6B-27933F8A667E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B72DD373-3654-4277-AC6B-27933F8A667E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B72DD373-3654-4277-AC6B-27933F8A667E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CEF8786A-C0A8-4B93-A00B-F8B80BF05A50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CEF8786A-C0A8-4B93-A00B-F8B80BF05A50}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CEF8786A-C0A8-4B93-A00B-F8B80BF05A50}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CEF8786A-C0A8-4B93-A00B-F8B80BF05A50}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D31D1AF6-16AE-4181-B895-A83FAA180DA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D31D1AF6-16AE-4181-B895-A83FAA180DA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D31D1AF6-16AE-4181-B895-A83FAA180DA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D31D1AF6-16AE-4181-B895-A83FAA180DA5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

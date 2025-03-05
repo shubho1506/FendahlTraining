@@ -16,10 +16,15 @@ namespace ClassesAndObjects
     //Nested Class → A class inside another class. - ✅ 
     //Generic Class → Works with multiple data types. - ✅ 
     //Anonymous Class → No class definition, used for temporary objects. - ✅ 
-    //✅ Record Class → Immutable, introduced in C# 9+.//Unavailable due to lower language version
+    //Record Class → Immutable, introduced in C# 9+.//Unavailable due to lower language version
     class Program
     {
-        class Person { public string Name { get; set; } public int Age { get; set; } }
+        class Person 
+        {
+            public string Name { get; set; } 
+            public int Age { get; set; } 
+        }
+
         static void Main(string[] args)
         {
             Regular rg = new Regular();

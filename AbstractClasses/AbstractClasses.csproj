@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{F0E7E9C7-0C01-470D-B387-539FA9F0431C}</ProjectGuid>
+    <ProjectGuid>{B72DD373-3654-4277-AC6B-27933F8A667E}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>PersonalTraining</RootNamespace>
-    <AssemblyName>PersonalTraining</AssemblyName>
+    <RootNamespace>AbstractClasses</RootNamespace>
+    <AssemblyName>AbstractClasses</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,12 +43,26 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="InkJet.cs" />
-    <Compile Include="LaserJet.cs" />
-    <Compile Include="Printer.cs" />
+    <Compile Include="BankTransferPayment.cs" />
+    <Compile Include="Bike.cs" />
+    <Compile Include="Car.cs" />
+    <Compile Include="ContractEmployee.cs" />
+    <Compile Include="CreditCardPayment.cs" />
+    <Compile Include="Discount.cs" />
+    <Compile Include="EmailNotification.cs" />
+    <Compile Include="Employee.cs" />
+    <Compile Include="FestivalDiscount.cs" />
+    <Compile Include="FullTimeEmployee.cs" />
+    <Compile Include="MembershipDiscount.cs" />
+    <Compile Include="Notification.cs" />
+    <Compile Include="Payment.cs" />
+    <Compile Include="PayPalPayment.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Shallow&amp;DeepCopy.cs" />
+    <Compile Include="PushNotification.cs" />
+    <Compile Include="SeasonalDiscount.cs" />
+    <Compile Include="SMSNotification.cs" />
+    <Compile Include="Vehicle.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

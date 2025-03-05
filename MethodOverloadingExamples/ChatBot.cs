@@ -8,6 +8,13 @@ namespace MethodOverloadingExamples
 {
     class ChatBot
     {
+        //4. Customer Support Chatbot Response System
+        //Scenario: A chatbot responds differently based on the type of query.
+        //•	Overload RespondToQuery() to: 
+        //1.	Respond to basic queries
+        //2.	Respond to priority queries
+        //3.	Respond to multi-language queries
+
         private Dictionary<string, string> languageResponses = new Dictionary<string, string>
     {
         { "english", "Hello! How can I assist you?" },

@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{F0E7E9C7-0C01-470D-B387-539FA9F0431C}</ProjectGuid>
+    <ProjectGuid>{540FB63B-C7B2-4D3E-A3FC-0F8F05CDA424}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>PersonalTraining</RootNamespace>
-    <AssemblyName>PersonalTraining</AssemblyName>
+    <RootNamespace>MethodOverridingExamples</RootNamespace>
+    <AssemblyName>MethodOverridingExamples</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,12 +43,24 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="InkJet.cs" />
-    <Compile Include="LaserJet.cs" />
-    <Compile Include="Printer.cs" />
+    <Compile Include="Admin.cs" />
+    <Compile Include="BankTransfer.cs" />
+    <Compile Include="CreditCard.cs" />
+    <Compile Include="Developer.cs" />
+    <Compile Include="DineInOrder.cs" />
+    <Compile Include="Employee.cs" />
+    <Compile Include="Manager.cs" />
+    <Compile Include="OnlineOrder.cs" />
+    <Compile Include="Order.cs" />
+    <Compile Include="Payment.cs" />
+    <Compile Include="PayPal.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Shallow&amp;DeepCopy.cs" />
+    <Compile Include="SmartAC.cs" />
+    <Compile Include="SmartDevice.cs" />
+    <Compile Include="SmartLight.cs" />
+    <Compile Include="SmartTV.cs" />
+    <Compile Include="TakeawayOrder.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
