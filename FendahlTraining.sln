@@ -43,8 +43,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MethodOverloadingExamples",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MethodOverridingExamples", "MethodOverridingExamples\MethodOverridingExamples.csproj", "{540FB63B-C7B2-4D3E-A3FC-0F8F05CDA424}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElectricityBillCalculator_Test", "ElectricityBillCalculator_Test\ElectricityBillCalculator_Test.csproj", "{73135B2B-2B26-4F69-8814-85F1417BF2BB}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractClasses", "AbstractClasses\AbstractClasses.csproj", "{B72DD373-3654-4277-AC6B-27933F8A667E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterfaceInCsharp", "InterfaceInCsharp\InterfaceInCsharp.csproj", "{CEF8786A-C0A8-4B93-A00B-F8B80BF05A50}"
@@ -54,6 +52,17 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SOLIDPrinciples", "SOLIDPrinciples\SOLIDPrinciples.csproj", "{BFB10276-8369-498C-9E77-5E2EA1B810B8}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestKt1", "TestKt1\TestKt1.csproj", "{8C9CA614-822A-4BE1-B046-0D8301D0CE43}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryDesignPattern", "FactoryDesignPattern\FactoryDesignPattern.csproj", "{4E92A7B3-6E67-4F55-9A8F-726933A8B2C8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BridgeDesignPattern", "BridgeDesignPattern\BridgeDesignPattern.csproj", "{52659467-595E-4BD8-906C-06136E9ED433}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericsInCSharp", "GenericsInCSharp\GenericsInCSharp.csproj", "{367EA513-1310-457A-97FB-0F0B64771519}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}"
+	ProjectSection(SolutionItems) = preProject
+		Directory.Build.props = Directory.Build.props
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -141,10 +150,6 @@ Global
 		{540FB63B-C7B2-4D3E-A3FC-0F8F05CDA424}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{540FB63B-C7B2-4D3E-A3FC-0F8F05CDA424}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{540FB63B-C7B2-4D3E-A3FC-0F8F05CDA424}.Release|Any CPU.Build.0 = Release|Any CPU
-		{73135B2B-2B26-4F69-8814-85F1417BF2BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{73135B2B-2B26-4F69-8814-85F1417BF2BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{73135B2B-2B26-4F69-8814-85F1417BF2BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{73135B2B-2B26-4F69-8814-85F1417BF2BB}.Release|Any CPU.Build.0 = Release|Any CPU
 		{B72DD373-3654-4277-AC6B-27933F8A667E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{B72DD373-3654-4277-AC6B-27933F8A667E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B72DD373-3654-4277-AC6B-27933F8A667E}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -165,6 +170,18 @@ Global
 		{8C9CA614-822A-4BE1-B046-0D8301D0CE43}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8C9CA614-822A-4BE1-B046-0D8301D0CE43}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8C9CA614-822A-4BE1-B046-0D8301D0CE43}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E92A7B3-6E67-4F55-9A8F-726933A8B2C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E92A7B3-6E67-4F55-9A8F-726933A8B2C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E92A7B3-6E67-4F55-9A8F-726933A8B2C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E92A7B3-6E67-4F55-9A8F-726933A8B2C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52659467-595E-4BD8-906C-06136E9ED433}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52659467-595E-4BD8-906C-06136E9ED433}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52659467-595E-4BD8-906C-06136E9ED433}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52659467-595E-4BD8-906C-06136E9ED433}.Release|Any CPU.Build.0 = Release|Any CPU
+		{367EA513-1310-457A-97FB-0F0B64771519}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{367EA513-1310-457A-97FB-0F0B64771519}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{367EA513-1310-457A-97FB-0F0B64771519}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{367EA513-1310-457A-97FB-0F0B64771519}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -7,10 +7,10 @@ using System.Threading.Tasks;
 namespace TestKt1
 {
     //need to take entry form user of student(name,s=address,dob,phone number,area of interest) if
-    //iterator is science then add inn science and maths in maths division and else add in arts. 
-    //    3 user entry details
-    //    print all division entry.
-    //    print years in main.
+    //iterator is science then add in science and maths in maths division and else add in arts. 
+    //3 user entry details
+    //print all division entry
+    //print years in main
 
     //stringbuilder and its functions
     //singleton factory bridge design pattern ddd
@@ -34,12 +34,16 @@ namespace TestKt1
 
                 Console.Write("Street: ");
                 string street = Console.ReadLine();
+
                 Console.Write("City: ");
                 string city = Console.ReadLine();
+
                 Console.Write("State: ");
                 string state = Console.ReadLine();
+
                 Console.Write("Country: ");
                 string country = Console.ReadLine();
+
                 Console.Write("Zip Code: ");
                 string zipCode = Console.ReadLine();
 
@@ -57,11 +61,11 @@ namespace TestKt1
                 string interest = Console.ReadLine().Trim();
 
 
-                if (interest.Equals("Science"))
+                if (interest.Equals("Science",StringComparison.OrdinalIgnoreCase))
                 {
                     science.AddStudent((new Student(name, dob, new Address(street, city, state, country, zipCode), interest, phoneNumber)));
                 }
-                else if (interest.Equals("Maths"))
+                else if (interest.Equals("Maths", StringComparison.OrdinalIgnoreCase))
                 {
                     maths.AddStudent(new Student(name, dob, new Address(street, city, state, country, zipCode), interest, phoneNumber));
                 }

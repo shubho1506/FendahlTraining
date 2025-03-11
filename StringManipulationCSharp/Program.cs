@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
+using System.Diagnostics;
 using System.Linq;
 using System.Security.Cryptography;
 using System.Text;
@@ -11,6 +12,46 @@ namespace StringManipulationCSharp
     class Program
     {
         static void Main(string[] args)
+        {
+            //StringManipulationTask();
+            StringBuilderTask();
+
+        }
+
+        static void StringBuilderTask()
+        {
+            StringBuilder sb = new StringBuilder("Hello");
+            sb.Append(" World"); // Appends " World"
+            sb.Insert(5, ",");  // Inserts "," after "Hello"
+            sb.Replace("World", "C#"); // Replaces "World" with "C#"
+            sb.Remove(6, 1); // Removes the ","
+
+            Console.WriteLine(sb.ToString()); // Output: Hello C#
+
+            int iterations = 10000;
+
+            // Using string
+            Stopwatch sw1 = Stopwatch.StartNew();
+            string str = "";
+            for (int i = 0; i < iterations; i++)
+            {
+                str += i; // Creates a new string object every time
+            }
+            sw1.Stop();
+            Console.WriteLine($"String time: {sw1.ElapsedMilliseconds}ms");
+
+            // Using StringBuilder
+            Stopwatch sw2 = Stopwatch.StartNew();
+            StringBuilder sb1 = new StringBuilder();
+            for (int i = 0; i < iterations; i++)
+            {
+                sb1.Append(i); // Modifies the same object
+            }
+            sw2.Stop();
+            Console.WriteLine($"StringBuilder time: {sw2.ElapsedMilliseconds}ms");
+        }
+
+        static void StringManipulationTask()
         {
             Console.WriteLine("Problem problem statements for String Handling in C# ");
 
