@@ -19,10 +19,10 @@ namespace AbstractClasses
             Console.WriteLine("This is private constructor. ");
         }
 
-        public Payment payment()
-        {
-            return new Payment();
-        }
+        //public Payment payment()
+        //{
+        //    return new Payment();
+        //}
         public abstract void ProcessPayment(double amount);
     }
 }

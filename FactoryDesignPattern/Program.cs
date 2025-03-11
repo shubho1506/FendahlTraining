@@ -22,33 +22,24 @@ namespace FactoryDesignPattern
         public void Show() => Console.WriteLine("Product B created");
     }
 
-    //public class ProductFactory
-    //{
-    //    public static IProduct GetProduct(string type)
-    //    {
-    //        switch (type)
-    //        {
-    //            case "A":
-    //                return new ConcreteProductA();
-    //            case "B":
-    //                return new ConcreteProductB();
-    //            default:
-    //                throw new ArgumentException("Invalid type");
-    //        }
-    //    }
-
-    //}
-
-    public static class ProductFactory
+    public class ProductFactory
     {
-        public static IProduct GetProduct(string type) =>
-            type switch
+        public static IProduct GetProduct(string type)
+        {
+            switch (type)
             {
-                "A" => new ConcreteProductA(),
-                "B" => new ConcreteProductB(),
-                _ => throw new ArgumentException($"Invalid type: {type}")
-            };
+                case "A":
+                    return new ConcreteProductA();
+                case "B":
+                    return new ConcreteProductB();
+                default:
+                    throw new ArgumentException("Invalid type");
+            }
+        }
+
     }
+
+
 
     class Program
     {

@@ -43,8 +43,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ArraySortingProblem.cs" />
+    <Compile Include="CountOccurenceProblem.cs" />
+    <Compile Include="GenericStackImplementation.cs" />
+    <Compile Include="GenericStackProblem.cs" />
+    <Compile Include="KeyValuePairProblem.cs" />
+    <Compile Include="KVPImplementation.cs" />
+    <Compile Include="MaxInArrayProblem.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repository.cs" />
+    <Compile Include="Storage.cs" />
+    <Compile Include="SwappingProblem.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
