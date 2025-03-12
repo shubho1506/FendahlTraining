@@ -126,7 +126,21 @@ namespace PersonalTraining
         }
     }
 
+    class GetSetCaller
+    {
+        public int MyProperty { get; set; }
 
+        public GetSetCaller(int myProperty)
+        {
+            MyProperty = myProperty;
+        }
+
+        public void setMyProperty(int num)
+        {
+            MyProperty = num;
+        }
+
+    }
     class Program
     {
         static void Main(string[] args)
@@ -138,11 +152,14 @@ namespace PersonalTraining
 
             //P obj1 = new P.P1();
 
-            C1.method();
+            //C1.method();
 
-            AbstractClass instance = AbstractClass.CreateInstance("Tanmay");
+            //AbstractClass instance = AbstractClass.CreateInstance("Tanmay");
             // Accessing private constructor indirectly via Nestedclass
 
+            GetSetCaller gsc = new GetSetCaller(10);
+            gsc.MyProperty = 20;
+            Console.WriteLine(gsc.MyProperty);
         }
     }
 

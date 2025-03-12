@@ -59,6 +59,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BridgeDesignPattern", "Brid
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericsInCSharp", "GenericsInCSharp\GenericsInCSharp.csproj", "{367EA513-1310-457A-97FB-0F0B64771519}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Collections&LINQ", "Collections&LINQ\Collections&LINQ.csproj", "{020D0C7A-5B2A-4E20-8454-B7705C43FA27}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -177,6 +179,10 @@ Global
 		{367EA513-1310-457A-97FB-0F0B64771519}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{367EA513-1310-457A-97FB-0F0B64771519}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{367EA513-1310-457A-97FB-0F0B64771519}.Release|Any CPU.Build.0 = Release|Any CPU
+		{020D0C7A-5B2A-4E20-8454-B7705C43FA27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{020D0C7A-5B2A-4E20-8454-B7705C43FA27}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{020D0C7A-5B2A-4E20-8454-B7705C43FA27}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{020D0C7A-5B2A-4E20-8454-B7705C43FA27}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

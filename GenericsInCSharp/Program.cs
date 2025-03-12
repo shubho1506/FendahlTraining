@@ -19,7 +19,7 @@ namespace GenericsInCSharp
             //GenericMethods();
             //GenericConstraints();
 
-            Console.WriteLine("Practice Problems for Generics in C# ");
+            //Console.WriteLine("Practice Problems for Generics in C# ");
 
             //SwappingProblem.Run();
 
@@ -29,9 +29,9 @@ namespace GenericsInCSharp
 
             //KVPImplementation.Run();
 
-            ArraySortingProblem.Run();
+            //ArraySortingProblem.Run();
 
-            //CountOccurenceProblem.Run();
+            CountOccurenceProblem.Run();
         }
 
         // Generic Method with Type Parameter <T>
@@ -81,15 +81,15 @@ namespace GenericsInCSharp
         }
 
 
-        //where T : class T must be a reference type - Repository<T> where T : class
-        //where T : struct    T must be a value type (int, double) - NumberProcessor<T> where T : struct
-        //where T : new() T must have a parameterless constructor - Factory<T> where T : new()
-        //where T : BaseClass T must inherit from BaseClass -   ChildClass<T> where T : ParentClass
+        //where T : class -  T must be a reference type - Repository<T> where T : class
+        //where T : struct -  T must be a value type (int, double) - NumberProcessor<T> where T : struct
+        //where T : new() - T must have a parameterless constructor - Factory<T> where T : new()
+        //where T : BaseClass - T must inherit from BaseClass -   ChildClass<T> where T : ParentClass
         //where T : IComparable<T>    T must implement an interface - Sorter<T> where T : IComparable<T>
 
         static void GenericConstraints()
         {
-            Repository<string> repo = new Repository<string>(); // ✅ Allowed (string is a class)
+            Repository<string> repo = new Repository<string>("sds"); // ✅ Allowed (string is a class)
             repo.Save("Generic Repository");
 
             // Repository<int> repo2 = new Repository<int>(); ❌ Error (int is not a class)
