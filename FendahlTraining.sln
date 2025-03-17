@@ -69,6 +69,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E-Commerce Console Applicat
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreadsInCSharp", "ThreadsInCSharp\ThreadsInCSharp.csproj", "{9285D1F8-7236-4C6C-B577-FFE9E8CDFDEE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartBankingSystem", "SmartBankingSystem\SmartBankingSystem.csproj", "{03BF745C-2E2B-4914-B13F-99E9F77DE429}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -207,6 +209,10 @@ Global
 		{9285D1F8-7236-4C6C-B577-FFE9E8CDFDEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9285D1F8-7236-4C6C-B577-FFE9E8CDFDEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9285D1F8-7236-4C6C-B577-FFE9E8CDFDEE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03BF745C-2E2B-4914-B13F-99E9F77DE429}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03BF745C-2E2B-4914-B13F-99E9F77DE429}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03BF745C-2E2B-4914-B13F-99E9F77DE429}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03BF745C-2E2B-4914-B13F-99E9F77DE429}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
