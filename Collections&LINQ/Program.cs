@@ -10,12 +10,6 @@ using System.Xml.Linq;
 
 namespace Collections_LINQ
 {
-    //Practice Problems for Collections and LINQ
-
-
-
-
-
     class Program
     {
         static void Main(string[] args)
@@ -29,7 +23,7 @@ namespace Collections_LINQ
             //FindEmployeesByDepartment();
             //FindMostExpensiveProduct();
             //GroupStudentsByGrades();
-            RemoveDuplicateIPs();
+            //RemoveDuplicateIPs();
         }
 
         //Problem 1: Employee Salary Processing
@@ -303,7 +297,7 @@ namespace Collections_LINQ
             }
 
             var methodSyntax = employees.Cast<DictionaryEntry>()
-                                        .Where(e => e.Value.ToString() == targetDepartment)
+                                        .Where(e => e.Value.ToString().Equals(targetDepartment))
                                         .OrderBy(e => e.Key)
                                         .Select(e => e.Key);
 
