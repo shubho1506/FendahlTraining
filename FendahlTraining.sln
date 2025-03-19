@@ -71,6 +71,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreadsInCSharp", "ThreadsI
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartBankingSystem", "SmartBankingSystem\SmartBankingSystem.csproj", "{03BF745C-2E2B-4914-B13F-99E9F77DE429}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StreamsInCSharp", "StreamsInCSharp\StreamsInCSharp.csproj", "{69061219-2FC1-4AC5-9EE1-00B3FBC304C1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -213,6 +215,10 @@ Global
 		{03BF745C-2E2B-4914-B13F-99E9F77DE429}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{03BF745C-2E2B-4914-B13F-99E9F77DE429}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{03BF745C-2E2B-4914-B13F-99E9F77DE429}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69061219-2FC1-4AC5-9EE1-00B3FBC304C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69061219-2FC1-4AC5-9EE1-00B3FBC304C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69061219-2FC1-4AC5-9EE1-00B3FBC304C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69061219-2FC1-4AC5-9EE1-00B3FBC304C1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

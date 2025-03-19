@@ -8,7 +8,6 @@ namespace PracticeKT1
 {
     class InventoryResponses
     {
-
         public void LowStocksWarning(string message)
         {
             Console.WriteLine($"This product need restocking - {message}");
