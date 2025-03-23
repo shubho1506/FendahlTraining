@@ -6,22 +6,6 @@ using System.Threading.Tasks;
 
 namespace PracticeKT1
 {
-    //2E-Commerce System - Functional Requirements
-
-    //6.	Error Handling & Security:
-    //o Custom exceptions: OutOfStockException, InvalidPaymentException, UserNotFoundException.
-    //o Try-catch-finally for secure error handling.
-
-    //7.	SOLID & Design Patterns:
-    //o Separate classes for user, product, cart, and order.
-    //o Factory Pattern for Customer & Admin roles.
-
-    //8.	File Handling:
-    //o Persist user, product, and order details.
-
-    //9.	Console Application:
-    //o Simulate a real-world e-commerce experience with LINQ, delegates, events, file handling, and exception management.
-
     class Program
     {
         static void Main(string[] args)
@@ -33,11 +17,12 @@ namespace PracticeKT1
 
             User loggedInUser = null;
 
+            Console.WriteLine("!!! Welcome to ConsoleCart Application !!! ");
+
             while (true)
             {
                 if (loggedInUser == null)
                 {
-                    Console.WriteLine("!!! Welcome to SDS Store !!! ");
                     Console.WriteLine("\n1. Register\n2. Login\n3. Exit");
                     Console.Write("Enter your choice: ");
                     string choice = Console.ReadLine();

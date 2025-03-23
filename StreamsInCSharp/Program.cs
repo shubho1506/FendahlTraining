@@ -26,6 +26,7 @@ namespace StreamsInCSharp
     //Memory Streams (e.g., MemoryStream) – Operate on RAM instead of disk.
     //Network Streams (e.g., NetworkStream) – Used for network communication.
     //Pipe Streams (e.g., PipeStream) – For inter-process/thread communication.
+
     class Program
     {
         static void Main(string[] args)
