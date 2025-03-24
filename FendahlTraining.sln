@@ -79,6 +79,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReflectionsInCSharp", "Refl
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AttributesInCSharp", "AttributesInCSharp\AttributesInCSharp.csproj", "{0B9BC847-97EF-487B-8107-159C16E855E3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SerializationInCSharp", "SerializationInCSharp\SerializationInCSharp.csproj", "{2BD6B9F7-A08F-44A1-8CE5-5B8EDA68F6AA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExtensionMethodsInCSharp", "ExtensionMethodsInCSharp\ExtensionMethodsInCSharp.csproj", "{7D8B316E-E415-4498-AE5F-3C54814C8C95}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -237,6 +241,14 @@ Global
 		{0B9BC847-97EF-487B-8107-159C16E855E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0B9BC847-97EF-487B-8107-159C16E855E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0B9BC847-97EF-487B-8107-159C16E855E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2BD6B9F7-A08F-44A1-8CE5-5B8EDA68F6AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BD6B9F7-A08F-44A1-8CE5-5B8EDA68F6AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BD6B9F7-A08F-44A1-8CE5-5B8EDA68F6AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BD6B9F7-A08F-44A1-8CE5-5B8EDA68F6AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D8B316E-E415-4498-AE5F-3C54814C8C95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D8B316E-E415-4498-AE5F-3C54814C8C95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D8B316E-E415-4498-AE5F-3C54814C8C95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D8B316E-E415-4498-AE5F-3C54814C8C95}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,9 +1,15 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
+using System.Diagnostics;
+using System.Dynamic;
 using System.Linq;
+using System.Reflection;
+using System.Runtime.InteropServices;
 using System.Runtime.Serialization;
 using System.Text;
 using System.Threading.Tasks;
+using static System.Net.Mime.MediaTypeNames;
 
 namespace AttributesInCSharp
 {
@@ -25,6 +31,17 @@ namespace AttributesInCSharp
         //Code documentation & validation
 
         //Marking methods for testing(e.g., [TestMethod] in unit testing)
+
+
+        //Commonly Used Attributes
+
+        //[Obsolete] - Marks a method or class as deprecated.
+        //[Serializable] - Indicates that a class can be serialized.
+        //[DllImport] - Used for calling unmanaged code (P/Invoke).
+        //[Conditional] - Allows execution based on compiler conditions.
+        //[DebuggerStepThrough] - Skips method when debugging.
+        //[Description] - Provides a text description for an element.
+
         static void Main(string[] args)
         {
             Console.WriteLine("=== Obsolete Attribute Example ===");
