@@ -4,11 +4,13 @@ using System.ComponentModel;
 using System.Diagnostics;
 using System.Dynamic;
 using System.Linq;
+using System.Net;
 using System.Reflection;
 using System.Runtime.InteropServices;
 using System.Runtime.Serialization;
 using System.Text;
 using System.Threading.Tasks;
+using System.Xml.Linq;
 using static System.Net.Mime.MediaTypeNames;
 
 namespace AttributesInCSharp
@@ -42,24 +44,35 @@ namespace AttributesInCSharp
         //[DebuggerStepThrough] - Skips method when debugging.
         //[Description] - Provides a text description for an element.
 
+        //Common use of  Attributes
+        //Logging and Auditing - Attributes help in tracking method calls, logging API requests, and maintaining audit trails.
+        //Validation and Data Annotation - Enterprise applications often use DataAnnotations for input validation in ASP.NET Core MVC/Web APIs.
+        //ORM Mapping(Entity Framework Core) - Attributes help map C# classes to database tables/columns in Entity Framework Core.
+        //Security and Authorization- Attributes are widely used for role-based access control(RBAC) in ASP.NET Core.
+
         static void Main(string[] args)
         {
-            Console.WriteLine("=== Obsolete Attribute Example ===");
-            var obsoleteExample = new ObsoleteExample();
-            obsoleteExample.NewMethod();
+            //Console.WriteLine("=== Obsolete Attribute Example ===");
+            //var obsoleteExample = new ObsoleteExample();
+            //obsoleteExample.NewMethod();
 
-            Console.WriteLine("\n=== DllImport Attribute Example ===");
-            var dllExample = new DllImportExample();
-            // Uncomment the next line if running on Windows
-             dllExample.ShowMessageBox();
+            //Console.WriteLine("\n=== DllImport Attribute Example ===");
+            //var dllExample = new DllImportExample();
+            //// Uncomment the next line if running on Windows
+            // dllExample.ShowMessageBox();
 
-            Console.WriteLine("\n=== Custom Attribute & Reflection Example ===");
-            var reflectionExample = new ReflectionExample();
-            reflectionExample.RetrieveAttributes();
+            //Console.WriteLine("\n=== Custom Attribute & Reflection Example ===");
+            //var reflectionExample = new ReflectionExample();
+            //reflectionExample.RetrieveAttributes();
 
-            Console.WriteLine("\n=== JSON Serialization Example ===");
-            var jsonExample = new JsonSerializationExample();
-            jsonExample.SerializeProduct();
+            //Console.WriteLine("\n=== JSON Serialization Example ===");
+            //var jsonExample = new JsonSerializationExample();
+            //jsonExample.SerializeProduct();
+
+            //Console.WriteLine();
+            OrderService orderService = new OrderService();
+            // Invoke using Logger
+            Logger.ExecuteWithLogging(orderService, "ProcessOrder", 101);
         }
     }
 }

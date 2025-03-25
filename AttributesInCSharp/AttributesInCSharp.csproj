@@ -50,7 +50,10 @@
     <Compile Include="CustomAttributeExample.cs" />
     <Compile Include="DllImportExample.cs" />
     <Compile Include="JsonSerializationExample.cs" />
+    <Compile Include="LogExecutionTimeAttribute.cs" />
+    <Compile Include="Logger.cs" />
     <Compile Include="ObsoleteExample.cs" />
+    <Compile Include="OrderService.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ReflectionExample.cs" />
