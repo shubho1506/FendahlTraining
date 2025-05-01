@@ -11,7 +11,10 @@ namespace GenericsInCSharp
     {
         private T data; // Variable of Type T
 
-        public void Store(T item) => data = item;
+        public void Store(T item)
+        {
+            data = item;
+        }
 
         public T Retrieve() => data;
     }

@@ -28,20 +28,21 @@ namespace SerializationInCSharp
         //Custom Serialization - Implements manual control over object serialization.
         static void Main(string[] args)
         {
-            Console.WriteLine("\n=== XML Serialization Example ===");
-            XmlSerializationExample xmlExample = new XmlSerializationExample();
-            xmlExample.Serialize();
-            xmlExample.Deserialize();
+            //Console.WriteLine("\n=== XML Serialization Example ===");
+            //XmlSerializationExample xmlExample = new XmlSerializationExample();
+            //xmlExample.Serialize();
+            //xmlExample.Deserialize();
 
             Console.WriteLine("\n=== JSON Serialization Example ===");
             JsonSerializationExample jsonExample = new JsonSerializationExample();
             jsonExample.Serialize();
             jsonExample.Deserialize();
 
-            Console.WriteLine("\n=== Custom Serialization Example ===");
-            CustomSerializationExample example = new CustomSerializationExample();
-            example.Serialize();
-            example.Deserialize();
+            //    Console.WriteLine("\n=== Custom Serialization Example ===");
+            //    CustomSerializationExample example = new CustomSerializationExample();
+            //    example.Serialize();
+            //    example.Deserialize();
+            //}
         }
     }
 }

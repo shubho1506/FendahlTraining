@@ -73,7 +73,7 @@ namespace ReflectionsInCSharp
             //CreatingInstancesDynamically();
             //AccessingPrivateMembers();
             //ReadingAttributes();
-            InspectingAssemblies();
+            //InspectingAssemblies();
         }
 
         //1. Retrieving Type Information

@@ -34,7 +34,7 @@ namespace StreamsInCSharp
             //MyFileStream.FileStreamImplementation();
             //PipeStreamImplementation();
             //ThreadPipeStreamImplementation();
-            AnonymousPipeStreamImplementation();
+            //AnonymousPipeStreamImplementation();
         }
 
         static void PipeStreamImplementation()

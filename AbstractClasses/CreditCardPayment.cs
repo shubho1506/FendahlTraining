@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace AbstractClasses
 {
-    class CreditCardPayment : Payment
+     class CreditCardPayment : Payment
     {
         public override void ProcessPayment(double amount)
         {

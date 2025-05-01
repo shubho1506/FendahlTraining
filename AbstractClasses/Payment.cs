@@ -14,7 +14,7 @@ namespace AbstractClasses
     //Implement CreditCardPayment, PayPalPayment, and BankTransferPayment classes that override this method.
     abstract class Payment
     {
-        private Payment()
+        internal Payment()
         {
             Console.WriteLine("This is private constructor. ");
         }
